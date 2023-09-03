@@ -1,6 +1,7 @@
 import React from "react";
 import "./Homemain.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+
 const Homemain = () => {
   return (
     <div className="background" id="Home">
@@ -11,7 +12,7 @@ const Homemain = () => {
           products that you can use to achieve your purposes.
         </p>
         <div className="links-h">
-          <Link to="/" className="button-h">
+          <Link to="#contactus" className="button-h">
             <span> Work with us</span>
           </Link>
           <div className="bg-h"></div>

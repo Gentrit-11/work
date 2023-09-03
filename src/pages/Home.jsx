@@ -5,7 +5,8 @@ import Services from "../components/Services/services";
 import AboutUs from "../components/About-us/AboutUs";
 import Blog from "../components/Blog/Blog";
 import Contactus from "../components/contactus/Contactus";
-
+import Footer from  "../components/Footer/Footer";
+ 
 const Home = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const Home = () => {
       <AboutUs />
       <Blog/>
       <Contactus/>
+      <Footer/>
     </div>
   );
 };

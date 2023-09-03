@@ -24,7 +24,7 @@ const Contactus = () => {
       .then(res=>{
         navigate('/');
         const messageElement = document.getElementById('message');
-        messageElement.innerText = 'Të dhënat janë dërguar faleminderit do ju kontaktojmë se shspejti';
+        messageElement.innerText = 'Të dhënat janë dërguar faleminderit do ju kontaktojmë se shpejti';
       })
      .catch(err=>console.log(err));
     }
